@@ -1,9 +1,9 @@
-import Image from "next/image";
+import ShowcaseGrid from "./showcase/ShowcaseGrid";
 
 export default function Home() {
   return (
     <div className="">
-      <h1>The urbanist</h1>
+      <ShowcaseGrid />
     </div>
   );
 }
